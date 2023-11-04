@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <script src="apikey.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Ocean Tides
+    </title>
+
+    <body>
+        <h1>Header One</h1>
+        <form action="" id="userForm">
+            <label for="userinput">City Name:</label><br>
+            <input type="text" id="userinput" name="userinput"><br>
+            <input type="submit" id="submitButton" name="submitButton"><br>
+        </form>
+        <br>
+        <div>
+            <h2>Your Nearest Station Is</h2>
+            <p color="gray" id="results" class="noinput">Awaiting Input...</p>
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th> </th>
+                    <th>Input City</th>
+                    <th>Closest Station</th>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td id="cityname">Input City Name</td>
+                    <td id="stationname">Station Location</td>
+                </tr>
+                <tr>
+                    <td>Latitude:</td>
+                    <td id="citylatitude">City Latitude</td>
+                    <td id="stationlatitude">Station Latitude</td>
+                </tr>
+                <tr>
+                    <td>Longitude:</td>
+                    <td id="citylongitude">City Longitude</td>
+                    <td id="stationlongitude">Station Longitude</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th colspan="2">Station Data</th>
+                </tr>
+                <tr>
+                    <td>Mean Tide Level:</td>
+                    <td id="meantide" class="noinput">Awaiting Input...</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+
+</html>
