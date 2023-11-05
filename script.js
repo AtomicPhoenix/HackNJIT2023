@@ -142,3 +142,8 @@ function getDistance(lat1, lat2, long1, long2) {
     let distance = diameter * Math.asin(Math.sqrt(h));
     return distance;
 }
+
+
+/* api credits
+    all information on city and station location was from geocode.api
+    all information relating to water levels, currents, floodlevels, etc is frop co-ops.api, which comes from national oceanic and atmospheric administration */
